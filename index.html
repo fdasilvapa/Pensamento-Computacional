@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="style">
+    <form id="form">
+        <h1>Calculadora</h1>
+
+        <label for="nome">Nome:</label> <br>
+        <input type="text" id="nome" required> <br><br>
+
+        <label for="nota1">Nota ciclo 1:</label> <br>
+        <input type="number" id="nota1" min="0" max="100" required> <br><br>
+
+        <label for="nota2">Nota ciclo 2:</label> <br>
+        <input type="number" id="nota2" min="0" max="100" required> <br><br>
+
+        <label for="nota3">Nota ciclo 3:</label> <br>
+        <input type="number" id="nota3" min="0" max="100" required> <br><br>
+
+        <button type="submit">Calcular sua média</button>
+    </form>
+    
+    <div id="result">
+        <h2>Resultado</h2> <br>
+        <p id="msg"></p> <br>
+        <div id="gif"></div>
+    </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
